@@ -17,5 +17,4 @@ course: {
         default: Date.now
     }
 });
-
 module.exports = mongoose.model("videos", videoschema)

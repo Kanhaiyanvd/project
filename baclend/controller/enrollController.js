@@ -3,7 +3,6 @@ const courseModel = require("../models/courseModel")
 const enrollModel=require("../models/enrollModel")
 const { default: mongoose } = require("mongoose")
 
-
 const enrollcourse = async function (req, res) {
     try {
         const course = req.body.course;

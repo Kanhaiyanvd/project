@@ -4,7 +4,6 @@ const userModel = require("../models/userModel")
 
 const jwt = require("jsonwebtoken")
 
-
 const authentication = async function (req, res,next) {
     try {
         let token = req.headers["x-api-key"]

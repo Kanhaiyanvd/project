@@ -1,6 +1,7 @@
 const userModel = require("../models/userModel")
 const jwt=require("jsonwebtoken")
 const bcrypt = require("bcrypt")
+
 const createuser = async function (req, res) {
     try {
         const data = req.body

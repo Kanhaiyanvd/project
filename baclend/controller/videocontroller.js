@@ -1,5 +1,4 @@
 const videoModel = require('../models/videoModel')
-
 const { uploadFile } = require("./aws")
 
 const createvideo = async function (req, res) {

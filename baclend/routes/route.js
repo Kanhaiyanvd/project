@@ -21,7 +21,6 @@ router.delete('/delet/:courseId', authentication,checkadmin,deletecourse)
 
 router.post('/enroll', authentication, enrollcourse)
 router.get('/allenroll', authentication, getallenrollcourse)
-
 //-----------------video------------------------------------
 router.post('/createvideo', createvideo)
 router.get('/allvideo', getallvideo)
